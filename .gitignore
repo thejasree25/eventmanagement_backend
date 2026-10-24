@@ -1,0 +1,47 @@
+
+# Spring Boot / Java build files
+target/
+build/
+.gradle/
+*.class
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+application-dev.properties
+application-secret.properties
+
+# Logs
+*.log
+logs/
+
+# IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+.apt_generated/
+.vscode/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
